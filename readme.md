@@ -32,21 +32,21 @@
 | Speech recognition | PocketSphinx | Vosk and Kaldi library      | Google Speech  |
 | NLP                | ---          | ---                         | ---            |
 
-|                    |  FBot-2019           | FBot-2023          |
-| ---                |  ---                 | ---                |
-| Operating system   |  ---                 | ---                |
-| Middleware         |  ROS                 | ROS Noetic         |
-| Navigation         |  ---                 | ---                |
-| Localization       |  AMCL                | AMCL               |
-| Mapping            |  RBPF                | RBPF               |
-| Object recognition |  YOLO v3             | YOLO v8            |
-| Face detection     |  OpenCV              | ---                |
-| Face recognition   |  SVM                 | Openface           |
-| Human detection    |  YOLO v3             | DeepSORT(tracking) |
-| Gesture recogn.    |  ---                 | ---                |
-| Speech synthesis   |  ---                 | ---                |
-| Speech recognition |  Google Cloud Speech | Whisper            |
-| NLP                |  ---                 | Langchain          |
+|                    | FBot-2019           | FBot-2022 | FBot-2023          |
+| ---                | ---                 | ---       | ---                |
+| Operating system   | ---                 |           | ---                |
+| Middleware         | ROS                 |           | ROS Noetic         |
+| Navigation         | ---                 | ---       | ---                |
+| Localization       | AMCL                | AMCL      | AMCL               |
+| Mapping            | RBPF                | RBPF      | RBPF               |
+| Object recognition | YOLO v3             | YOLO v4   | YOLO v8            |
+| Face detection     | OpenCV              |           | ---                |
+| Face recognition   | SVM                 |           | Openface           |
+| Human detection    | YOLO v3             |           | DeepSORT(tracking) |
+| Gesture recogn.    | ---                 |           | ---                |
+| Speech synthesis   | ---                 |           | ---                |
+| Speech recognition | Google Cloud Speech |           | Whisper            |
+| NLP                | ---                 |           | Langchain          |
 
 |                    | Pinguim-2019            | Pinguim-2022                     | Pinguim-2023         |
 | ---                | ---                     | ---                              | ---                  |
@@ -111,7 +111,7 @@
 | Gesture recogn.    | ---                     | ---                    | MediaPipe              |
 | Speech synthesis   | PocketSphinx-ESpeak     | ESpeak ROS             | Mimic3                 |
 | Speech recognition | Google Cloud Speech     | ---                    | Whisper                |
-| NLP                | ---                     | ---                    | ---                    |
+| NLP                | ---                     | ---                    | Rasa                   |
 
 |                    | Warthog-2019            | Warthog-2022 | Warthog-2023 | 
 | ---                | ---                     | ---          | ---          |
@@ -147,96 +147,96 @@
 | LiDAR          | ---                            | ---                            |
 | Emb. System    | Lenovo Intel i5 with 8GB RAM   | Lenovo Intel i5 with 8GB RAM   |
 
-|                 | BahiaRT-2019                                          | BahiaRT-2023                       |
-| ---             | ---                                                   | ---                                |
-| Batteries       | 3 Makita Lithium-Ion 18V-3.0Ah                        | 3 batteries 11.1v and 2800 mAh     | 
-| Base Motors     | 2 Motors IG32P 24VDC + Encoder                        | ---                                | 
-| Manipulators    | 5 Dynamixel-ax-12A;  One ArbotiX-M; Maximum load: 1kg | ---                                | 
-| Microphone      | 1 Rode Videomic Pro                                   | 1 Rode VideoMic Go                 | 
-| Display         | Motorola tablet                                       | ---                                | 
-| RGB-D Camera    | Kinect                                                | ---                                | 
-| RGB Camera      | 2 Webcam HD-3000                                      | 1 Webcam FullHD                    | 
-| Speaker         | ---                                                   | ---                                |
-| IMU             | ---                                                   | ---                                | 
-| LiDAR           | RPLiDAR 360                                           | RPLiDAR 360                        | 
-| Emb. System     | Lenovo Intel i5 with 8GB RAM                          | Notebook Dell Inspiron 15R-4470 i7 | 
+|                 | BahiaRT-2019                                         | BahiaRT-2022                        | BahiaRT-2023                       |
+| ---             | ---                                                  | ---                                 | ---                                |
+| Batteries       | 3 Makita Lithium-Ion 18V-3.0Ah                       | 3 batteries 11.1 volts and 2800 mAh | 3 batteries 11.1v and 2800 mAh     | 
+| Base Motors     | 2 Motors IG32P 24VDC + Encoder                       | 2 motors IG32P 24VDC + Encoder      | ---                                | 
+| Manipulators    | 5 Dynamixel-ax-12A; One ArbotiX-M                    | 5 Dynamixel-ax-12A; One ArbotiX-M   | ---                                |
+| Microphone      | 1 Rode Videomic Pro                                  | 1 Rode Videomic Pro                 | 1 Rode VideoMic Go                 | 
+| Display         | Motorola tablet                                      | ---                                 | ---                                | 
+| RGB-D Camera    | Kinect                                               | Kinect                              | ---                                | 
+| RGB Camera      | 2 Webcam HD-3000                                     | 2 Webcam HD-3000                    | 1 Webcam FullHD                    | 
+| Speaker         | ---                                                  | ---                                 | ---                                |
+| IMU             | ---                                                  | ---                                 | ---                                | 
+| LiDAR           | RPLiDAR 360                                          | RPLIDAR 360                         | RPLiDAR 360                        | 
+| Emb. System     | Lenovo Intel i5 with 8GB RAM                         | Intel Core i7-1165G7                | Notebook Dell Inspiron 15R-4470 i7 | 
 
-|                 |  FBot-2019                                        | FBot-2022 | FBot-2023                                       |
-| ---             |  ---                                              | ---       | ---                                             |
-| Batteries       | Bateria PowerTek 12v - End 11A                    |           | ---                                             |
-| Base Motors     | PatrolBots                                        |           | PatrolBots                                      |
-| Manipulators    | 5 DOF arm                                         |           | 5 DOF Arm                                       |
-| Microphone      | 1 Rode VideoMic Pro                               |           | ---                                             | 
-| Display         | ---                                               |           | ---                                             |
-| RGB-D Camera    | Kinect v2                                         |           | Intel D435i                                     |
-| RGB Camera      | ---                                               |           | ---                                             |
-| Speaker         | ---                                               |           | ---                                             |
-| IMU             | ---                                               |           | ---                                             |
-| LiDAR           | SICK LMS-100 and Hokuyo URG-04LX-UG01             |           | SICK LMS-100 and Hokuyo URG-04LX                |
-| Emb. System     | Intel N509516GB+512GB, Intel NUC and Jetson TX2   |           | Intel NUC, Jetson TX2 and notebook i7 8705G 8gb | 
+|                 |  FBot-2019                                        | FBot-2022             | FBot-2023                                       |
+| ---             |  ---                                              | ---                   | ---                                             |
+| Batteries       | Bateria PowerTek 12v - End 11A                    | ---                   | ---                                             |
+| Base Motors     | PatrolBots                                        | PatrolBot             | PatrolBots                                      |
+| Manipulators    | 5 DOF arm                                         | 5-DOF arm             | 5 DOF Arm                                       |
+| Microphone      | 1 Rode VideoMic Pro                               | 1 Rode VideoMic Pro   | ---                                             | 
+| Display         | ---                                               | ---                   | ---                                             |
+| RGB-D Camera    | Kinect v2                                         | Kinect V2             | Intel D435i                                     |
+| RGB Camera      | ---                                               | ---                   | ---                                             |
+| Speaker         | ---                                               | ---                   | ---                                             |
+| IMU             | ---                                               | ---                   | ---                                             |
+| LiDAR           | SICK LMS-100 and Hokuyo URG-04LX-UG01             | 2 lidars              | SICK LMS-100 and Hokuyo URG-04LX                |
+| Emb. System     | Intel N509516GB+512GB, Intel NUC and Jetson TX2   | Intel NUC, Jetson TX2,  | Intel NUC, Jetson TX2 and notebook i7 8705G 8gb | 
 
-|                 | Pinguim-2019              | Pinguim-2023        |
-| ---             | ---                       | ---                 |
-| Batteries       | Wheelchair battery        | Wheelchair bat.     |
-| Base Motors     | ---                       | ---                 |
-| Manipulators    | ---                       | ---                 |
-| Microphone      | ---                       | ---                 |
-| Display         | ---                       | ---                 |
-| RGB-D Camera    | Kinect                    | Kinect              |
-| RGB Camera      | Kinect                    | Kinect              |
-| Speaker         | ---                       | ---                 |
-| IMU             | ---                       | ---                 |
-| LiDAR           | YDLiDAR X4                | YDLiDAR X4          |
-| Emb. System     | Intel Core T6670 2 GB RAM | ---                 |
+|                 | Pinguim-2019              | Pinguim-2022                                  | Pinguim-2023                     |
+| ---             | ---                       | ---                                           | ---                              |
+| Batteries       | Wheelchair battery        | Wheelchair battery                            | Wheelchair battery               |
+| Base Motors     | ---                       |                                               | ---                              |
+| Manipulators    | ---                       |                                               | ---                              |
+| Microphone      | ---                       | 1 Microphone                                  | 1 Microphone                     |
+| Display         | ---                       | 1 Monitor                                     | 1 Monitor                        |
+| RGB-D Camera    | Kinect                    | Kinect                                        | Kinect                           |
+| RGB Camera      | Kinect                    | Kinect                                        | Kinect                           |
+| Speaker         | ---                       | 1 Speaker                                     | 1 Speaker                        |
+| IMU             | ---                       | ---                                           | ---                              |
+| LiDAR           | YDLiDAR X4                | YDLiDAR X4                                    | YDLiDAR X4                       |
+| Emb. System     | Intel Core T6670 2 GB RAM | Intel Core 2 Duo T6670 2GB RAM + Arduino UNO  | Intel Core i5 8 GB + ESP32       |
 
-|                 | PQMEC-2019                  |  PQMEC-2023                     | 
-| ---             | ---                         | ---                             |
-| Batteries       | ---                         | ---                             |
-| Base Motors     | 4x Pololu XYZ               | 4x Hoverboard Wheel Motor 6.5'' |
-| Manipulators    | XYZrobot 6 DOF              | Trossen 6 DOF Arm               |
-| Microphone      | Rode Videomic Go            | Rode Videomic Go                |
-| Display         | Galaxy Tab S3               |  Galaxy Tab S3                  |
-| RGB-D Camera    | Kinect                      | Intel D435i                     |
-| RGB Camera      | Logitech Pro C920           | Intel D435i                     |
-| Speaker         | JBL Charge 3                | JBL Charge 3                    |
-| IMU             | BN0055                      | Intel D435i                     |
-| LiDAR           | RPLiDAR A2                  | RPLiDAR A2                      |
-| Emb. System     | Jetson TX2                  |Jetson Xavier and Intel NUC      |
+|                 | PQMEC-2019                  | PQMEC-2022                     | PQMEC-2023                              | 
+| ---             | ---                         | ---                            | ---                                     |
+| Batteries       | ---                         | ---                            | ---                                     |
+| Base Motors     | 4x Pololu XYZ               | 2x Hoverboard Wheel Motor 6,5” | 4x Hoverboard Wheel Motor 6.5”          |
+| Manipulators    | XYZrobot 6 DOF              | XYZrobot 6 DOF                 | Trossen 6 DOF Arm                       |
+| Microphone      | Rode Videomic Go            | Rode Videomic Go               | Rode Videomic Go                        |
+| Display         | Galaxy Tab S3               | Galaxy Tab S3                  | Galaxy Tab S3                           |
+| RGB-D Camera    | Kinect                      | Intel D435i                    | Intel D435i                             |
+| RGB Camera      | Logitech Pro C920           | Logitech Pro C920              | ---                                     |
+| Speaker         | JBL Charge 3                | JBL Charge 3                   | JBL Charge 3                            |
+| IMU             | BN0055                      | Intel D435i                    | Intel D435i                             |
+| LiDAR           | RPLiDAR A2                  | RPLiDAR A2                     | RPLiDAR A2                              |
+| Emb. System     | Jetson TX2                  | Jetson Xavier                  | Jetson Xavier, Intel NUC and Teensy 4.0 |
 
-|                 | RoboFEI-2019       | RoboFEI-2023      | 
-| ---             | ---                | ---               |
-| Batteries       | ---                | ---               |
-| Base Motors     | PeopleBot          | PeopleBot         |
-| Manipulators    | 7 DOF Arm          | 6 DOF Arm         |
-| Microphone      | 2 Rode VideoMic Go | 2 HyperX QuadCast |
-| Display         | Apple Ipad 2       | Apple Ipad 2      |
-| RGB-D Camera    | Kinect             | Kinect            |
-| RGB Camera      | Logitech c920      | Logitech c920     |
-| Speaker         | ---                | JBL Charge 5      |
-| IMU             | ---                | ---               |
-| LiDAR           | Hokuyo UTM-30LX-EW | Hokuyo URG-04LX   |
-| Emb. System     | Intel NUC i5 5250U | ---               |
+|                 | RoboFEI-2019       | RoboFEI-2022                         | RoboFEI-2023                           | 
+| ---             | ---                | ---                                  | ---                                    |
+| Batteries       | ---                | ---                                  | ---                                    |
+| Base Motors     | PeopleBot          | PeopleBot                            | PeopleBot                              |
+| Manipulators    | 7 DOF Arm          | 6 DOF manipulator + 1 DOF gripper    | 6 DOF manipulator + 1 Flexible gripper |
+| Microphone      | 2 Rode VideoMic Go | 2 RODE VideoMic GO                   | 2 HyperX QuadCast                      |
+| Display         | Apple Ipad 2       | Apple Ipad 2                         | Apple Ipad 2                           |
+| RGB-D Camera    | Kinect             | Kinect                               | Kinect                                 |
+| RGB Camera      | Logitech c920      | Logitech c920                        | Logitech c920                          |
+| Speaker         | ---                | ---                                  | JBL Charge 5                           |
+| IMU             | ---                | ---                                  | ---                                    |
+| LiDAR           | Hokuyo UTM-30LX-EW | Hokuyo UTM-30LX-EW                   | Hokuyo URG-04LX                        |
+| Emb. System     | Intel NUC i5 5250U | Intel® NUC Mini-PC i5                | ---                                    |
 
-|                 |  UTBots@Apollo-2019              | UTBots@Apollo-2023   |
-| ---             |  ---                             | ---                  |
-| Batteries       |  3 x 12 volts standard batteries | ---                  |
-| Base Motors     |  Pioneer LX                      | Pioneer LX           |
-| Manipulators    |  ---                             | ORCA Robotic Arm     |
-| Microphone      |  ---                             | ---                  |
-| Display         |  T-7305 tablet                   | ---                  |
-| RGB-D Camera    |  Kinect                          | Kinect               |
-| RGB Camera      |  ---                             | ---                  |
-| Speaker         |  ---                             | ---                  |
-| LiDAR           |  Hokuyo URG-04LX                 | YDLiDAR X4           |
+|                 |  UTBots@Apollo-2019              | UTBots@Apollo-2022 | UTBots@Apollo-2023   |
+| ---             |  ---                             | ---                | ---                  |
+| Batteries       |  3 x 12 volts standard batteries | ---                | ---                  |
+| Base Motors     |  Pioneer 3-AT                    | Pioneer 3-AT       | Pioneer 3-AT         |
+| Manipulators    |  ---                             | ORCA Robotic Arm   | ORCA Robotic Arm     |
+| Microphone      |  ---                             | ---                | ---                  |
+| Display         |  T-7305 tablet                   | 1 LCD Display      | ---                  |
+| RGB-D Camera    |  Kinect                          | Kinect             | Kinect               |
+| RGB Camera      |  ---                             | ---                | ---                  |
+| Speaker         |  ---                             | ---                | ---                  |
+| LiDAR           |  Hokuyo URG-04LX                 | YDLiDAR X4         | YDLiDAR X4           |
 
-|                 | Warthog-2019      |  Warthog-2023                   |
-| ---             | ---               | ---                             |
-| Batteries       | ---               | ---                             |
-| Base Motors     | Pioneer P3-DX     | Pioneer P3-DX                   |
-| Manipulators    | ---               | ---                             |
-| Microphone      | ---               | Microphone with noise canceling |
-| Display         | ---               | ---                             |
-| RGB-D Camera    | Kinect 2          | Kinect 2                        |
-| RGB Camera      | Kinect 2          | Kinect 2                        |
-| Speaker         | ---               | External speaker                |
-| LiDAR           | Hokuyo            | Hokuyo                          |
+|                 | Warthog-2019      | Warthog-2022  | Warthog-2023                    |
+| ---             | ---               | ---           | ---                             |
+| Batteries       | ---               | ---           | ---                             |
+| Base Motors     | Pioneer P3-DX     | Pioneer P3-DX | Pioneer P3-DX                   |
+| Manipulators    | ---               | ---           | ---                             |
+| Microphone      | ---               | ---           | Microphone with noise canceling |
+| Display         | ---               |               | ---                             |
+| RGB-D Camera    | Kinect 2          | Kinect 2      | Kinect 2                        |
+| RGB Camera      | Kinect 2          | Kinect 2      | Kinect 2                        |
+| Speaker         | ---               | ---           | External speaker                |
+| LiDAR           | Hokuyo            | Hokuyo        | Hokuyo                          |
